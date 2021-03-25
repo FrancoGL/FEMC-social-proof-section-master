@@ -95,6 +95,7 @@ body {
 .opinion-element .person {
     display: flex;
     width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .opinion-element .person img {
@@ -116,7 +117,7 @@ body {
 
 .opinion-element p {
     color: #FFF;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     line-height: 1.5;
 }
 
@@ -128,6 +129,9 @@ body {
     line-height: 1.5;
 }
 
+.bg-bottom {
+    display: none;
+}
 
 
 @media (min-width: 1280px) {
@@ -137,7 +141,9 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
-        padding: 6rem 7rem;
+        padding: 6rem 7rem 2.5rem 7rem;
+        position: relative;
+        overflow: hidden;
     }
 
     /* introduction */
@@ -226,5 +232,13 @@ body {
         grid-column: 1 / 3;
         grid-row: 3 / 4;
         margin-top: 3rem;
+    }
+
+    .bg-bottom {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
     }
 }
