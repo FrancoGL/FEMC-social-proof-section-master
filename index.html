@@ -1,115 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
-  <title>Frontend Mentor | Social proof section</title>
-  <!--Font-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
-  <!--Styles-->
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-
-<body>
-  <section class="container">
-    <div class="introduction">
-      <h1>10,000+ of our users love our products.</h1>
-      <p>We only provide great products combined with excellent customer service.
-        See what our satisfied customers are saying about our services.
-      </p>
-    </div>
-
-    <div class="rated-container">
-      <div class="rated-element one">
-        <div class="rated-stars">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
+    <title>Frontend Mentor | Social proof section</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Normalize-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--Styles-->
+    <link rel="stylesheet" href="./css/styles.css">
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section__introduction">
+        <!--introduction-->
+        <div class="introduction">
+          <h1 class="introduction__title">10,000+ of our<br> users love our<br> products.</h1>
+          <p class="introduction__paragraph">
+            We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.
+          </p>
         </div>
-        <p>Rated 5 Stars in Reviews</p>
+        <!--Rated-->
+        <div>
+          <div class="rate__element">
+            <div class="element__review">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+            </div>
+            <p class="element__text">Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="rate__element rate--margin-one">
+            <div class="element__review">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+            </div>
+            <p class="element__text">Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="rate__element rate--margin-two">
+            <div class="element__review">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+              <img src="./images/icon-star.svg" alt="icon-star">
+            </div>
+            <p class="element__text">Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
+      </section>
+      <!--Opinions-->
+      <section class="section__opinion">
+        <article class="opinion__element">
+          <div class="person">
+            <img src="./images/image-colton.jpg" alt="person-image" class="person__img">
+            <h2 class="person__name-buyer">Colton Smith<br>
+            <span class="person--buyer">Verified Buyer</span></h2>
+          </div>
+          <p class="opinion__paragraph">
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"
+          </p>
+        </article>
+        
+        <article class="opinion__element opinion--margin-one">
+          <div class="person">
+            <img src="./images/image-irene.jpg" alt="person-img" class="person__img">
+            <h2 class="person__name-buyer">
+              Irene Roberts<br>
+              <span class="person--buyer">Verified Buyer</span>
+            </h2>
+          </div>
+          <p class="opinion__paragraph">
+            "Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+          </p>
+        </article>
+        
+        <article class="opinion__element opinion--margin-two">
+          <div class="person">
+            <img src="./images/image-anne.jpg" alt="person-img" class="person__img">
+            <h2 class="person__name-buyer">
+              Anne Wallace<br>
+              <span class="person--buyer">Verified Buyer</span>
+            </h2>
+          </div>
+          <p class="opinion__paragraph">
+            "Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"
+          </p>
+        </article>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/FrancoGL" target="_blank">FrancoGL</a>.
       </div>
-      <div class="rated-element two">
-        <div class="rated-stars">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-        </div>
-        <p>Rated 5 Stars in Report Guru</p>
-      </div>
-      <div class="rated-element three">
-        <div class="rated-stars">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-          <img src="./images/icon-star.svg" alt="icon-star">
-        </div>
-        <p>Rated 5 Stars in BestTech</p>
-      </div>
     </div>
-
-    <div class="opinion-container">
-      <article class="opinion-element">
-        <div class="person">
-          <img src="./images/image-colton.jpg" alt="Profile Image of Colton">
-          <h2>
-            Colton Smith<br>
-            <span>Verified Buyer</span>
-          </h2>
-        </div>
-        <p>
-          "We needed the same printed design as the one we had ordered a week prior.
-          Not only did they find the original order, but we also received it in time.
-          Excellent!"
-        </p>
-      </article>
-
-      <article class="opinion-element two">
-        <div class="person">
-          <img src="./images/image-irene.jpg" alt="Profile Image of Irene">
-          <h2>
-            Irene Roberts<br>
-            <span>Verified Buyer</span>
-          </h2>
-        </div>
-        <p>
-          "Customer service is always excellent and very quick turn around. Completely
-          delighted with the simplicity of the purchase and the speed of delivery."
-        </p>
-      </article>
-
-      <article class="opinion-element three">
-        <div class="person">
-          <img src="./images/image-anne.jpg" alt="Profile Image of Anne">
-          <h2>
-            Anne Wallace<br>
-            <span>Verified Buyer</span>
-          </h2>
-        </div>
-        <p>
-          "Put an order with this company and can only praise them for the very high
-          standard. Will definitely use them again and recommend them to everyone!"
-        </p>
-      </article>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-        href="#">FrancoGL</a>.
-    </div>
-    <img src="./images/bg-pattern-bottom-desktop.svg" alt="background-bottom" class="bg-bottom">
-  </section>
-</body>
-
+  </body>
 </html>
