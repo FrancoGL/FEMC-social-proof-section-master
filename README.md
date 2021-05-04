@@ -14,8 +14,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-html-and-css-q4orChVdA)
+- Live Site URL: [Live Site with Vercel](https://social-proof-section-master-git-master-francogl.vercel.app/)
 
 ## Built with
 
